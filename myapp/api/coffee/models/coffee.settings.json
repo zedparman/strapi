@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coffees",
+  "info": {
+    "name": "coffee",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coffeename": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
