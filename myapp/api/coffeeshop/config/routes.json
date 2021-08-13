@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coffeeshops",
+      "handler": "coffeeshop.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffeeshops/count",
+      "handler": "coffeeshop.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coffeeshops/:id",
+      "handler": "coffeeshop.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coffeeshops",
+      "handler": "coffeeshop.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coffeeshops/:id",
+      "handler": "coffeeshop.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coffeeshops/:id",
+      "handler": "coffeeshop.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
