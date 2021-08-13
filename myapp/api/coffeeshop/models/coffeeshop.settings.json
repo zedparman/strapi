@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coffeeshops",
+  "info": {
+    "name": "coffeeshop",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shopname": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "coffees": {
+      "collection": "coffee"
+    }
+  }
+}
